@@ -1,0 +1,119 @@
+#Company Storage yaml configuration file"yaml"
+# Mapping, Key (-) value s
+# DO NOT USE TAB KEY 
+# R load and data.frame coercian examples commented at end of file 
+version: 1 # configuration file version
+Company: &CO FSEAL # Storage contractee
+ContractTerms: # Contract terms from storage company i.e. from Transco
+  FacilityAbbr: &FacAB SouthLA # Storage contract abbreviated internal name
+  FacilityName: South Lousiana # Storage contract long internal name
+  dealstartdate: 04/01/2002 # Deal start date from contract
+  enddate: 03/31/2003 # Deal end date from contract   
+  MSQ: 1000000 # Deal Maximum Capacity volume in mmbtu from contract
+  CoveredDeltaTarget: .5 # Targeted delta for covered calls and puts. 0.5 is ATM.
+  test: *CO  #  *FacAB
+
+Tariff:
+  - flowMonth: All
+    Roll: 0  # Financial Hedge Roll Transaction Fee
+    Injection_rate: 0 # Injection commodity charge from contract/tariff
+    injection_fuel: 0 # Injection fuel charge from contract/tariff normally a percentage
+    Withdrawal_rate: 0 # Withdrawal commodity charge from contract/tariff
+    withdrawal_fuel: 0 # Withdrawal fuel charge from contract/tariff normally a percentage
+
+DataKeys: # not used at this time
+ - CurveID: 1 # Database dbkey for this curve
+   CurveType: Forward # Curve Type classification
+   Desc: NYMEX # Curve ID descrition
+ - CurveID: 500
+   CurveType: Basis
+   Desc: Henry Hub Basis Curve
+ - CurveID: 120
+   CurveType: Spot
+   Desc: Henry Hub Daily
+ - CurveID: 10
+   CurveType: InterestRate
+   Desc: Term Structure of Risk Free yields
+
+Ratchets: # all ratchets are from the contract or tariff, may require pre input calculation based on 
+          # MSQ from above and percentages for flow period found in tariff or contract
+   - flowMonth: 1 # ratchet flow period
+     MDIQ: 32550 # minimum daily injection quantity for flow month
+     MDWQ: 64550 # minimum daily withdrawal quantity for flow month
+     lower: NA # lower bound for period injection quantity
+     upper: NA # upper bound for period injection quantity
+   - flowMonth: 2
+     MDIQ: 32550
+     MDWQ: 64550
+     lower: NA
+     upper: NA
+   - flowMonth: 3
+     MDIQ: 32550
+     MDWQ: 64550
+     lower: NA
+     upper: NA
+   - flowMonth: 4
+     MDIQ: 32550
+     MDWQ: 64550
+     lower: NA
+     upper: NA
+   - flowMonth: 5
+     MDIQ: 32550
+     MDWQ: 64550
+     lower: NA
+     upper: NA
+   - flowMonth: 6
+     MDIQ: 32550
+     MDWQ: 64550
+     lower: NA
+     upper: NA
+   - flowMonth: 7
+     MDIQ: 32550
+     MDWQ: 64550
+     lower: NA
+     upper: NA
+   - flowMonth: 8
+     MDIQ: 32550
+     MDWQ: 64550
+     lower: NA
+     upper: NA
+   - flowMonth: 9
+     MDIQ: 32550
+     MDWQ: 64550
+     lower: NA
+     upper: NA
+   - flowMonth: 10
+     MDIQ: 32550
+     MDWQ: 64550
+     lower: NA
+     upper: NA
+   - flowMonth: 11
+     MDIQ: 32550
+     MDWQ: 64550
+     lower: NA
+     upper: NA
+   - flowMonth: 12
+     MDIQ: 32550
+     MDWQ: 64550
+     lower: NA
+     upper: NA
+
+configurations:
+   dateformat: "%m/%d/%Y" # date format to use to convert date string to date fields above
+   filename: FSEAL-SouthLA #*CO-*FacAB This is not yet preserved #filename prefix for daily configurations.  
+                           # The current valuation date will be appended.  Use Company and Facility
+                           # scalar values from above
+   datadirectory: &data /Share/NAS/work/RData/storage #/home/byersjw/work/repo/fseal/dataWorking/storage # directory where other data files are located.  
+   inputsdirectory: /Share/NAS/work/RData/storage/inputs
+   curvesdirectory: /Share/NAS/work/RData/storage/curves
+   resultsdirectory: /Share/NAS/work/RData/storage/results 
+                   # If append date flag TRUE will append valuation date to file name. 
+   datadateflag: true
+   sourcedirectory: /home/byersjw/work/repo/fseal/projects/scripts # same as previous but for source code 
+                                                                   # that is not packaged. 
+   logfile: FSEAL-SouthLA # log file name, we will append run date on the end with a time stamp.
+   logdir: /Share/NAS/work/RData/storage/log #/var/log # log file directory /var/log on linux 
+
+#a=yaml.load_file("/home/byersjw/work/repo/fseal/dataWorking/conf/storage-company.yaml")
+#do.call(rbind.data.frame, a$Ratchets)
+#do.call(rbind.data.frame, a$DataKeys)

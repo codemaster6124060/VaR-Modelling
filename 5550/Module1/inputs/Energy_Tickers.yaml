@@ -1,0 +1,47 @@
+#Energy YAML
+Energy:
+   - 
+      ticker: USO
+      name: United States Oil Fund, LP
+   - 
+      ticker: UCO
+      name: ProShares Ultra Bloomberg Crude Oil 
+   - 
+      ticker: SCO
+      name: ProShares UltraShort Bloomberg Crude Oil
+   - 
+      ticker: USOI
+      name: Credit Suisse X-Links Crude Oil Shares Covered Call ETNs
+   - 
+      ticker: DBO
+      name: Invesco DB Oil Fund
+   - 
+      ticker: BNO
+      name: United States Brent Oil Fund
+   - 
+      ticker: USL
+      name: United States 12 Month Oil Fund
+   - 
+      ticker: OIL
+      name: iPath Pure Beta Crude Oil ETN
+   - 
+      ticker: OILK
+      name: ProShares K-1 Free Crude Oil Strategy ETF
+   - 
+      ticker: UGA
+      name: United States Gasoline Fund, LP 
+   - 
+      ticker: UNG
+      name: United States Natural Gas Fund, LP
+   - 
+      ticker: KOLD
+      name: ProShares UltraShort Bloomberg Natural Gas
+   - 
+      ticker: BOIL
+      name: ProShares Ultra Bloomberg Natural Gas
+   - 
+      ticker: UNL
+      name: United States 12 Month Natural Gas Fund, LP
+   - 
+      ticker: GAZ
+      name: iPath Series B Bloomberg Natural Gas Subindex Total ReturnSM ETN

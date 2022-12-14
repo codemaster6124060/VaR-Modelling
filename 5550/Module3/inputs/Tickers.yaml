@@ -1,0 +1,412 @@
+#Energy YAML
+Energy:
+   Crude oil: 
+   - 
+      ticker: USO
+      name: United States Oil Fund, LP
+   - 
+      ticker: UCO
+      name: ProShares Ultra Bloomberg Crude Oil 
+   - 
+      ticker: SCO
+      name: ProShares UltraShort Bloomberg Crude Oil
+   - 
+      ticker: USOI
+      name: Credit Suisse X-Links Crude Oil Shares Covered Call ETNs
+   - 
+      ticker: DBO
+      name: Invesco DB Oil Fund
+   - 
+      ticker: BNO
+      name: United States Brent Oil Fund
+   - 
+      ticker: USL
+      name: United States 12 Month Oil Fund
+   - 
+      ticker: OIL
+      name: iPath Pure Beta Crude Oil ETN
+   - 
+      ticker: OILK
+      name: ProShares K-1 Free Crude Oil Strategy ETF
+      
+   Gasoline: 
+   - 
+      ticker: UGA
+      name: United States Gasoline Fund, LP
+      
+   Natural Gas: 
+   - 
+      ticker: UNG
+      name: United States Natural Gas Fund, LP
+   - 
+      ticker: KOLD
+      name: ProShares UltraShort Bloomberg Natural Gas
+   - 
+      ticker: BOIL
+      name: ProShares Ultra Bloomberg Natural Gas
+   - 
+      ticker: UNL
+      name: United States 12 Month Natural Gas Fund, LP
+   - 
+      ticker: GAZ
+      name: iPath Series B Bloomberg Natural Gas Subindex Total ReturnSM ETN
+#Agriculture YAML
+Agriculture:
+   Agriculture:
+   - 
+      ticker: BAL 
+      name: Barclays iPath Bloomberg Cotton Subindex Total Return ETN
+   - 
+      ticker: JO
+      name: Barclays iPath Bloomberg Coffee Subindex Total Return ETN
+   - 
+      ticker: CORN
+      name: Teucrium Corn Fund
+   - 
+      ticker: NIB
+      name: Barclays Bank iPath Bloomberg Cocoa Subindex Total Return ETN
+   - 
+      ticker: SGG
+      name: Barclays iPath Bloomberg Sugar Subindex Total Return ETN
+   - 
+      ticker: CANE
+      name: Teucrium Sugar Fund
+   - 
+      ticker: SOYB 
+      name: Teucrium Soybean Fund
+   - 
+      ticker: WEAT
+      name: Teucrium Wheat Fund
+   - 
+      ticker: DBA
+      name: Invesco DB Agriculture Fund
+   - 
+      ticker: RJA
+      name: AB Svensk Elements Linked to the Rogers International Commodity Index Agriculture Total Return ETN
+   - 
+      ticker: TILL
+      name: Teucrium Agricultural Strategy No K-1 ETF
+   - 
+      ticker: TAGS
+      name: Teucrium Agricultural Fund
+   - 
+      ticker: JJA
+      name: Barclays iPath Bloomberg Agriculture Subindex Total Return ETN
+   - 
+      ticker: PDBA
+      name: Invesco Agriculture Commodity Strategy No K-1 ETF
+   - 
+      ticker: BRKY
+      name: Direxion Breakfast Commodities Strategy ETF
+   - 
+      ticker: JJG
+      name: Barclays iPath Bloomberg Grains Subindex Total Return ETN
+   - 
+      ticker: GRU
+      name: Elements Linked to the ICE BofAML Commodity Index eXtra Grains Total Return ETN
+   - 
+      ticker: FUE
+      name: Elements Linked to the ICE BofAML Commodity Index eXtra Biofuels Total Return ETN
+   - 
+      ticker: JJS
+      name: Barclays iPath Bloomberg Softs Subindex Total Return ETN
+   - 
+      ticker: COW
+#Currency YAML
+Currency:
+   Currency:
+   - 
+      ticker: FXE 
+      name: Invesco CurrencyShares Euro Trust 
+   - 
+      ticker: FXF 
+      name: Invesco CurrencyShares Swiss Franc Trust
+   - 
+      ticker: FXY
+      name:	Invesco CurrencyShares Japanese Yen Trust
+   - 
+      ticker: FXC 
+      name: Invesco CurrencyShares Canadian Dollar Trust
+   - 
+      ticker: FXB
+      name: Invesco CurrencyShares British Pound Sterling Trust
+   - 
+      ticker: FXA 
+      name: Invesco CurrencyShares Australian Dollar Trust
+# Interest Rate
+Interest Rates:
+   Interest Rates:
+   - 
+      ticker: TBIL
+      name: Treasury 3 Month
+#Metal YAML
+Metal:
+   Metal:
+   - 
+      ticker: AAAU 
+      name: Goldman Sachs Physical Gold ETF 
+   - 
+      ticker: BAR 
+      name: GraniteShares Gold Trust
+   - 
+      ticker: BGLD
+      name:	FT Cboe Vest Gold Tactical Buffer ETF
+   - 
+      ticker: DGL 
+      name: Invesco DB Gold Fund
+   - 
+      ticker: DGP
+      name: DB Gold Double Long ETN
+   - 
+      ticker: DGZ 
+      name: DB Gold Short ETN
+   - 
+      ticker: DZZ 
+      name: DB Gold Double Short ETN 
+   - 
+      ticker: FGLD
+      name: Franklin Responsibly Sourced Gold ETF
+   - 
+      ticker: GBUG
+      name:	iPath Gold ETN
+   - 
+      ticker: GLD 
+      name: SPDR Gold Shares
+   - 
+      ticker: GLDI
+      name: Credit Suisse X-Links Gold Shares Covered Call ETN
+   - 
+      ticker: GLDM 
+      name: SPDR Gold MiniShares
+   - 
+      ticker: GLDX 
+      name: USCF Gold Strategy Plus Income Fund 
+   - 
+      ticker: GLL
+      name: ProShares UltraShort Gold
+   - 
+      ticker: IAU
+      name:	iShares Gold Trust
+   - 
+      ticker: IAUF 
+      name: iShares Gold Strategy ETF
+   - 
+      ticker: IAUM
+      name: iShares Gold Trust Micro
+   - 
+      ticker: IGLD
+      name: FT Cboe Vest Gold Target Income ETF
+   - 
+      ticker: OUNZ 
+      name: VanEck Merk Gold Trust 
+   - 
+      ticker: PBUG
+      name: Pacer iPath Gold Trendpilot ETNs
+   - 
+      ticker: SESG
+      name:	Sprott Esg Gold Etf
+   - 
+      ticker: SGOL 
+      name: abrdn Physical Gold Shares ETF
+   - 
+      ticker: UGL
+      name: ProShares Ultra Gold
+   - 
+      ticker: SLV
+      name: iShares Silver Trust
+   - 
+      ticker: SIVR 
+      name: abrdn Physical Silver Shares ETF 
+   - 
+      ticker: AGQ
+      name: ProShares Ultra Silver
+   - 
+      ticker: SLVO
+      name:	Credit Suisse X-Links Silver Shares Covered Call ETN
+   - 
+      ticker: DBS 
+      name: Invesco DB Silver Fund
+   - 
+      ticker: ZSL
+      name: ProShares UltraShort Silver
+   - 
+      ticker: PALL
+      name: abrdn Physical Palladium Shares ETF (PALL)
+   - 
+      ticker: PPLT
+      name: abrdn Physical Platinum Shares ETF
+   - 
+      ticker: PLTM 
+      name: GraniteShares Platinum Trust 
+   - 
+      ticker: PGM
+      name: iPath Series B Bloomberg Platinum Subindex Total Return ETN
+   - 
+      ticker: SPY
+      name:	SPDR S&P 500 ETF Trust
+   - 
+      ticker: IVV 
+      name: iShares Core S&P 500 ETF
+   - 
+      ticker: VOO
+      name: Vanguard 500 Index Fund
+#Treasury YAML 
+Treasury:
+   Treasury:
+   - 
+      ticker: SHY
+      name: iShares 1-3 Year Treasury Bond ETF
+   - 
+      ticker: BIL
+      name: SPDR Bloomberg 1-3 Month T-Bill ETF
+   - 
+      ticker: TLT
+      name: iShares 20+ Year Treasury Bond ETF
+   - 
+      ticker: SHV
+      name: iShares Short Treasury Bond ETF
+   - 
+      ticker: IEF
+      name: iShares 7-10 Year Treasury Bond ETF
+   - 
+      ticker: GOVT
+      name: iShares U.S. Treasury Bond ETF
+   - 
+      ticker: VGSH
+      name: Vanguard Short-Term Treasury ETF
+   - 
+      ticker: VGIT
+      name: Vanguard Intermediate-Term Treasury ETF
+   - 
+      ticker: IEI
+      name: iShares 3-7 Year Treasury Bond ETF
+   - 
+      ticker: SCHO
+      name: Schwab Short-Term U.S. Treasury ETF
+   - 
+      ticker: SCHR
+      name: Schwab Intermediate-Term U.S. Treasury ETF
+   - 
+      ticker: TLH
+      name: iShares 10-20 Year Treasury Bond ETF
+   - 
+      ticker: SGOV
+      name: iShares 0-3 Month Treasury Bond ETF
+   - 
+      ticker: SPTL
+      name: SPDR Portfolio Long Term Treasury ETF
+   - 
+      ticker: GBIL
+      name: Goldman Sachs Access Treasury 0-1 Year ETF
+   - 
+      ticker: SPTS
+      name: SPDR Portfolio Short Term Treasury ETF4
+   - 
+      ticker: SPTI
+      name: SPDR Portfolio Intermediate Term Treasury ETF
+   - 
+      ticker: VGLT
+      name: Vanguard Long-Term Treasury ETF
+   - 
+      ticker: VUSB
+      name: Vanguard Ultra-Short Bond ETF
+   - 
+      ticker: EDV
+      name: Vanguard Extended Duration Treasury ETF
+   - 
+      ticker: TBT
+      name: ProShares UltraShort 20+ Year Treasury
+   - 
+      ticker: IBTD
+      name: iShares iBonds Dec 2023 Term Treasury ETF
+   - 
+      ticker: CLTL
+      name: Invesco Treasury Collateral ETF
+   - 
+      ticker: IBTE
+      name: iShares iBonds Dec 2024 Term Treasury ETF
+   - 
+      ticker: TMV
+      name: Direxion Daily 20+ Year Treasury Bear 3x Shares
+   - 
+      ticker: TBF
+      name: ProShares Short 20+ Year Treasury
+   - 
+      ticker: TTT
+      name: ProShares UltraPro Short 20+ Year Treasury
+   - 
+      ticker: ZROZ
+      name: PIMCO 25+ Year Zero Coupon US Treasury Index ETF
+   - 
+      ticker: PLW
+      name: Invesco 1-30 Laddered Treasury ETF
+   -
+      ticker: TMF
+      name: Direxion Daily 20+ Year Treasury Bull 3X Shares
+   -
+      ticker: BILS
+      name: SPDR Bloomberg 3-12 Month T-Bill ETF
+   -
+      ticker: FLGV
+      name: Franklin U.S. Treasury Bond ETF
+   - 
+      ticker: IBTF
+      name: iShares iBonds Dec 2025 Term Treasury ETF
+   - 
+      ticker: GOVZ
+      name: iShares 25+ Year Treasury STRIPS Bond ETF
+   - 
+      ticker: IBTB
+      name: iShares iBonds Dec 2022 Term Treasury ETF
+   - 
+      ticker: IBTH
+      name: iShares iBonds Dec 2027 Term Treasury ETF
+   - 
+      ticker: TBX
+      name: ProShares Short 7-10 Year Treasury
+   - 
+      ticker: SCHQ
+      name: Schwab Long-Term U.S. Treasury ETF
+   - 
+      ticker: IBTG
+      name: iShares iBonds Dec 2026 Term Treasury ETF
+   - 
+      ticker: PST
+      name: ProShares UltraShort 7-10 Year Treasury
+   - 
+      ticker: IBTK
+      name: iShares iBonds Dec 2030 Term Treasury ETF
+   - 
+      ticker: BNDD
+      name: KraneShares Quadratic Deflation ETF
+   - 
+      ticker: TYO
+      name: Direxion Daily 7-10 Year Treasury Bear 3x Shares
+   - 
+      ticker: SBND
+      name: Columbia Short Duration Bond ETF
+   - 
+      ticker: AGOV
+      name: ETC Gavekal Asia Pacific Government Bond ETF
+   - 
+      ticker: TYA
+      name: Simplify Intermediate Term Treasury Futures Strategy ETF
+   - 
+      ticker: IBTJ
+      name: iShares iBonds Dec 2029 Term Treasury ETF
+   - 
+      ticker: IBTI
+      name: iShares iBonds Dec 2028 Term Treasury ETF
+   - 
+      ticker: UBT
+      name: ProShares Ultra 20+ Year Treasury
+   - 
+      ticker: TYD
+      name: Direxion Daily 7-10 Year Treasury Bull 3x Shares
+   - 
+      ticker: IBTL
+      name: iShares iBonds Dec 2031 Term Treasury ETF
+   - 
+      ticker: UST
+      name: ProShares Ultra 7-10 Year Treasury
+

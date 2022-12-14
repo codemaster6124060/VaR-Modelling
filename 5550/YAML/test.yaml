@@ -1,0 +1,99 @@
+version: 1
+Company: FSEAL
+ContractTerms:
+  FacilityAbbr: SouthLA
+  FacilityName: South Lousiana
+  dealstartdate: 04/01/2002
+  enddate: 03/31/2003
+  MSQ: 1000000
+  test: FSEAL
+Tariff:
+- flowMonth: All
+  Roll: 0
+  Injection_rate: 0
+  injection_fuel: 0
+  Withdrawal_rate: 0
+  withdrawal_fuel: 0
+DataKeys:
+- CurveID: 1
+  CurveType: Forward
+  Desc: NYMEX
+- CurveID: 500
+  CurveType: Basis
+  Desc: Henry Hub Basis Curve
+- CurveID: 120
+  CurveType: Spot
+  Desc: Henry Hub Daily
+- CurveID: 10
+  CurveType: InterestRate
+  Desc: Term Structure of Risk Free yields
+Ratchets:
+- flowMonth: 1
+  MDIQ: 32550
+  MDWQ: 64550
+  lower: NA
+  upper: NA
+- flowMonth: 2
+  MDIQ: 32550
+  MDWQ: 64550
+  lower: NA
+  upper: NA
+- flowMonth: 3
+  MDIQ: 32550
+  MDWQ: 64550
+  lower: NA
+  upper: NA
+- flowMonth: 4
+  MDIQ: 32550
+  MDWQ: 64550
+  lower: NA
+  upper: NA
+- flowMonth: 5
+  MDIQ: 32550
+  MDWQ: 64550
+  lower: NA
+  upper: NA
+- flowMonth: 6
+  MDIQ: 32550
+  MDWQ: 64550
+  lower: NA
+  upper: NA
+- flowMonth: 7
+  MDIQ: 32550
+  MDWQ: 64550
+  lower: NA
+  upper: NA
+- flowMonth: 8
+  MDIQ: 32550
+  MDWQ: 64550
+  lower: NA
+  upper: NA
+- flowMonth: 9
+  MDIQ: 32550
+  MDWQ: 64550
+  lower: NA
+  upper: NA
+- flowMonth: 10
+  MDIQ: 32550
+  MDWQ: 64550
+  lower: NA
+  upper: NA
+- flowMonth: 11
+  MDIQ: 32550
+  MDWQ: 64550
+  lower: NA
+  upper: NA
+- flowMonth: 12
+  MDIQ: 32550
+  MDWQ: 64550
+  lower: NA
+  upper: NA
+configurations:
+  dateformat: '%m/%d/%Y'
+  filename: FSEAL-SouthLA
+  datadirectory: /home/byersjw/work/repo/fseal/dataWorking/storage
+  datadateflag: yes
+  sourcedirectory: /home/byersjw/work/repo/fseal/projects/scripts
+  logfile: FSEAL-SouthLA
+  logdir: /var/log
+

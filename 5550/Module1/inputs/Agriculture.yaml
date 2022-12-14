@@ -1,0 +1,62 @@
+#Agriculture YAML
+Agriculture:
+   - 
+      ticker: BAL 
+      name: Barclays iPath Bloomberg Cotton Subindex Total Return ETN
+   - 
+      ticker: JO
+      name: Barclays iPath Bloomberg Coffee Subindex Total Return ETN
+   - 
+      ticker: CORN
+      name: Teucrium Corn Fund
+   - 
+      ticker: NIB
+      name: Barclays Bank iPath Bloomberg Cocoa Subindex Total Return ETN
+   - 
+      ticker: SGG
+      name: Barclays iPath Bloomberg Sugar Subindex Total Return ETN
+   - 
+      ticker: CANE
+      name: Teucrium Sugar Fund
+   - 
+      ticker: SOYB 
+      name: Teucrium Soybean Fund
+   - 
+      ticker: WEAT
+      name: Teucrium Wheat Fund
+   - 
+      ticker: DBA
+      name: Invesco DB Agriculture Fund
+   - 
+      ticker: RJA
+      name: AB Svensk Elements Linked to the Rogers International Commodity Index Agriculture Total Return ETN
+   - 
+      ticker: TILL
+      name: Teucrium Agricultural Strategy No K-1 ETF
+   - 
+      ticker: TAGS
+      name: Teucrium Agricultural Fund
+   - 
+      ticker: JJA
+      name: Barclays iPath Bloomberg Agriculture Subindex Total Return ETN
+   - 
+      ticker: PDBA
+      name: Invesco Agriculture Commodity Strategy No K-1 ETF
+   - 
+      ticker: BRKY
+      name: Direxion Breakfast Commodities Strategy ETF
+   - 
+      ticker: JJG
+      name: Barclays iPath Bloomberg Grains Subindex Total Return ETN
+   - 
+      ticker: GRU
+      name: Elements Linked to the ICE BofAML Commodity Index eXtra Grains Total Return ETN
+   - 
+      ticker: FUE
+      name: Elements Linked to the ICE BofAML Commodity Index eXtra Biofuels Total Return ETN
+   - 
+      ticker: JJS
+      name: Barclays iPath Bloomberg Softs Subindex Total Return ETN
+   - 
+      ticker: COW
+      name: Barclays iPath Bloomberg Livestock Subindex Total Return ETN

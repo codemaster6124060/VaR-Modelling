@@ -1,0 +1,110 @@
+#Metal YAML
+Metal:
+   - 
+      ticker: AAAU 
+      name: Goldman Sachs Physical Gold ETF 
+   - 
+      ticker: BAR 
+      name: GraniteShares Gold Trust
+   - 
+      ticker: BGLD
+      name:	FT Cboe Vest Gold Tactical Buffer ETF
+   - 
+      ticker: DGL 
+      name: Invesco DB Gold Fund
+   - 
+      ticker: DGP
+      name: DB Gold Double Long ETN
+   - 
+      ticker: DGZ 
+      name: DB Gold Short ETN
+   - 
+      ticker: DZZ 
+      name: DB Gold Double Short ETN 
+   - 
+      ticker: FGLD
+      name: Franklin Responsibly Sourced Gold ETF
+   - 
+      ticker: GBUG
+      name:	iPath Gold ETN
+   - 
+      ticker: GLD 
+      name: SPDR Gold Shares
+   - 
+      ticker: GLDI
+      name: Credit Suisse X-Links Gold Shares Covered Call ETN
+   - 
+      ticker: GLDM 
+      name: SPDR Gold MiniShares
+   - 
+      ticker: GLDX 
+      name: USCF Gold Strategy Plus Income Fund 
+   - 
+      ticker: GLL
+      name: ProShares UltraShort Gold
+   - 
+      ticker: IAU
+      name:	iShares Gold Trust
+   - 
+      ticker: IAUF 
+      name: iShares Gold Strategy ETF
+   - 
+      ticker: IAUM
+      name: iShares Gold Trust Micro
+   - 
+      ticker: IGLD
+      name: FT Cboe Vest Gold Target Income ETF
+   - 
+      ticker: OUNZ 
+      name: VanEck Merk Gold Trust 
+   - 
+      ticker: PBUG
+      name: Pacer iPath Gold Trendpilot ETNs
+   - 
+      ticker: SESG
+      name:	Sprott Esg Gold Etf
+   - 
+      ticker: SGOL 
+      name: abrdn Physical Gold Shares ETF
+   - 
+      ticker: UGL
+      name: ProShares Ultra Gold
+   - 
+      ticker: SLV
+      name: iShares Silver Trust
+   - 
+      ticker: SIVR 
+      name: abrdn Physical Silver Shares ETF 
+   - 
+      ticker: AGQ
+      name: ProShares Ultra Silver
+   - 
+      ticker: SLVO
+      name:	Credit Suisse X-Links Silver Shares Covered Call ETN
+   - 
+      ticker: DBS 
+      name: Invesco DB Silver Fund
+   - 
+      ticker: ZSL
+      name: ProShares UltraShort Silver
+   - 
+      ticker: PALL
+      name: abrdn Physical Palladium Shares ETF (PALL)
+   - 
+      ticker: PPLT
+      name: abrdn Physical Platinum Shares ETF
+   - 
+      ticker: PLTM 
+      name: GraniteShares Platinum Trust 
+   - 
+      ticker: PGM
+      name: iPath Series B Bloomberg Platinum Subindex Total Return ETN
+   - 
+      ticker: SPY
+      name:	SPDR S&P 500 ETF Trust
+   - 
+      ticker: IVV 
+      name: iShares Core S&P 500 ETF
+   - 
+      ticker: VOO
+      name: Vanguard 500 Index Fund

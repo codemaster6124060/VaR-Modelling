@@ -1,0 +1,21 @@
+#Currency YAML
+Currency:
+   - 
+      ticker: FXE 
+      name: Invesco CurrencyShares Euro Trust 
+   - 
+      ticker: FXF 
+      name: Invesco CurrencyShares Swiss Franc Trust
+   - 
+      ticker: FXY
+      name:	Invesco CurrencyShares Japanese Yen Trust
+   - 
+      ticker: FXC 
+      name: Invesco CurrencyShares Canadian Dollar Trust
+   - 
+      ticker: FXB
+      name: Invesco CurrencyShares British Pound Sterling Trust
+   - 
+      ticker: FXA 
+      name: Invesco CurrencyShares Australian Dollar Trust
+
